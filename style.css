@@ -1,0 +1,109 @@
+.top{
+    background-color: black;
+    color: orangered;
+    height: 50px;
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+}
+.top a{
+    color: orangered;
+    
+}
+.educ .title{
+    color: orangered;
+}
+.educ{
+    background-image: url('Educ.jpg');
+    background-repeat: no-repeat;
+  /* background-attachment: fixed;  */
+  background-size: 100% 100%;
+}
+.top a:hover{
+    text-decoration: none;
+    font-size: 120%;
+}
+h3{
+    text-align: left;
+}
+.intro{
+    background-color: orangered;
+    text-align: center;
+    padding-top: 50px;;
+    padding-bottom: 20px;
+    /* margin-top: 20px; */
+    color: black;
+}
+.DP{
+    width: 40%;
+    margin-top: 2%;
+    border-radius: 50%;
+    border: 5px black solid;
+    border-style: inset;
+}
+.contact{
+    background-color: black;
+    color: orangered;
+    text-align: center;
+    padding: 20px;
+}
+i{
+    color: orangered;
+    border: 1px ;
+    margin: 2px;
+    width: 60px;
+    font-size: 30px;
+    /* color: black; */
+}
+.Intermediate{
+    background-color: orangered;
+    border: 1px solid black;
+    border-radius: 1%;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+.engg a{
+    color:orangered;
+    text-decoration: none;
+    color: black;
+}
+.engg a:hover{
+    font-size: 120%;
+    text-decoration: none;
+    color:orangered;
+}
+.engg, .ssc{
+    background-color: black;
+    border: 1px solid orangered;
+    border-radius: 1%;
+    color: orangered ;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.title{
+    padding-top: 5px;
+    text-align: center;
+    font-weight: 700;
+}
+.skills{
+    background-color: orangered;
+    text-align: center;
+    color: black;
+}
+.skills p{
+    background-color: black;
+    color: orangered;
+}
+@media screen and (max-width :480px) {
+    #top{
+        display: none;
+    }
+    .DP{
+        width: 20%;
+    }
+    .title{
+        padding-top: 1px;
+    }
+}
+
